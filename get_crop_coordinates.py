@@ -15,8 +15,6 @@ imageObject  = Image.open("./frame962.jpg")
                 #(right bottom corner distance from left edge,(bottom right corner distance down from top))
 cropped     = imageObject.crop((400,680,3500,1300))
 
- 
-
 # Display the cropped portion
 
 cropped.show()
