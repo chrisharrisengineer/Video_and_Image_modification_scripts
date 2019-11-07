@@ -8,7 +8,7 @@ imageObject  = Image.open("./frame962.jpg")
 # Crop
 # Cropped = (distance from left edge-top left corner),(y-distance down top left corner);
            #(right bottom corner distance from left edge,(bottom right corner distance down from top))
- 
+
 cropped = imageObject.crop((400,680,3500,1300))
 
 # Display the cropped portion
