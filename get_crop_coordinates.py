@@ -1,11 +1,8 @@
 # import the Python Image processing Library
-
 from PIL import Image
 
- 
 
 # Create an Image object from an Image
-
 imageObject  = Image.open("./frame962.jpg")
 
 # Crop
@@ -15,5 +12,4 @@ imageObject  = Image.open("./frame962.jpg")
 cropped = imageObject.crop((400,680,3500,1300))
 
 # Display the cropped portion
-
 cropped.show()
